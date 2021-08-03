@@ -3,11 +3,11 @@ import autoIncrement from 'mongoose-auto-increment';
 
 
 const userSchema = mongoose.Schema({
-    name: String,
-    username: String,
-    email: String,
-    phone: Number
+     name: String,
+     username: String,
+  
 });
+
 
 
 autoIncrement.initialize(mongoose.connection);

@@ -15,7 +15,7 @@ export const getUsers = async(request, response)=>{
 export const addUsers = async (request, response) =>{
 
         const user = request.body;
-        
+    console.log(request.body + 'ht');    
     
         const newUser = new User(user);
         try{
